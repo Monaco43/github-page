@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*margin: 0 auto;*/
+    background-color: #f4f3ef;
+    color: #a1a2a6;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.hd-part{
+    width: 100%;
+}
+.hd-wcw{
+    /*min-width: 1000px;*/
+    width: 100%;
+}
+/*整个团队*/
+.hd-ot{
+    min-width: 1000px;
+    width: 100%;
+    padding: 40px 0;
+    padding-bottom: 150px;
+}
+.hd-ot-introduce{
+   width: 33.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.hd-ot-heting{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fba1a1;
+    font-style:inherit;
+}
+.hd-ot-hudan{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #23cfa7;
+    font-style:inherit;
+}
+.hd-ot-hw{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #a593c2;
+    font-style:inherit;
+}
+.hd-ot-lxy{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: skyblue;
+    font-style:inherit;
+}
+.hd-ot-lz{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffbb63;
+    font-style:inherit;
+}
+.hd-ot-img{
+    transition: 2s;
+}
+.hd-ot-img:hover{
+    transform: rotateY(359deg);
+}
+.hd-ot-sjl{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: mediumorchid;
+    font-style:inherit;
+}
+.hd-ot-hw-about{
+    width: 100px;
+    height: 5px;
+    background-color: #a593c2;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hd-ot-lz-about{
+    width: 100px;
+    height: 5px;
+    background-color: #ffbb63;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hd-ot-blue-about{
+    width: 100px;
+    height: 5px;
+    background-color: skyblue;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hd-ot-sjl-about{
+    width: 100px;
+    height: 5px;
+    background-color:mediumorchid;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hd-lxy-p{
+    font-size: 18px;
+    color: skyblue;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.hd-sjl-p{
+    font-size: 18px;
+    color: mediumorchid;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.hd-p{
+    font-size: 18px;
+    color: #23cfa7;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.hd-ht-p{
+    font-size: 18px;
+    color: #fba1a1;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.hd-hw-p{
+     font-size: 18px;
+     color: #a593c2;
+     margin: 0 0 10px;
+     display: block;
+     -webkit-margin-before: 1em;
+     -webkit-margin-after: 1em;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+ }
+.hd-lz-p{
+    font-size: 18px;
+    color:#ffbb63;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.hd-ot-pink-about{
+    width: 100px;
+    height: 5px;
+    background-color: #f8d4d3;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hd-ot-purple-about{
+    width: 100px;
+    height: 5px;
+    background-color:#23cfa7;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hd-ot-lz-about{
+    width: 100px;
+    height: 5px;
+    background-color:#ffbb63;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/*整个蛋糕价格*/
+.hd-op {
+    min-width: 1000px;
+    width: 100%;
+    background-color: #9a70bf;
+}
+.hd-ot-pink{
+    color: #fba1a1;
+}
+/*蛋糕三角部分*/
+.hd-op-sanjiao{
+
+    height: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.hd-op-tittle-sanjiao {
+    background: url("../images/hd-img/arrow.png") repeat-x;
+}
+.hd-op-bottom-sanjiao{
+    background: url("../images/hd-img/arrow-top.png") repeat-x;
+}
+/*蛋糕价格部分*/
+.hd-op-prcake {
+    padding: 60px 0;
+}
+
+/*蛋糕价格标题部分*/
+.hd-op-tittle-text {
+    color: #FFFFFF;
+}
+
+/*一个蛋糕价格*/
+.hd-op-prcaketop-1 {
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*蛋糕价格上标1*/
+.hd-op-prcaketop-1-1 {
+    display: block;
+    margin: 0 auto;
+}
+.hd-opimg-full{
+    width: auto;
+}
+/*蛋糕价格下标描述部分1*/
+.hd-op-prcakebtm-content{
+    margin-top: -105px;
+    padding-top: 120px;
+}
+/*蛋糕价格下标log部分1*/
+.hd-op-prcakebtm-tag{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #f4f3ef;
+                }
+/*蛋糕价格文字部分*/
+.hd-op-prcake-green{
+    color:#23cfa7;
+}
+.hd-op-greencakebtm-text{
+    background-color: #a0ecd9;
+    margin-top: 20px;
+    color: #23cfa7;
+}
+.hd-op-prcake-blue{
+    color:#59d4f0;
+}
+.hd-op-bluecakebtm-text{
+    background-color: #b7effb;
+    margin-top: 20px;
+    color: #59d4f0;
+}
+.hd-op-prcake-purple{
+    color:#9a70bf;
+}
+.hd-op-prcakebtm-text{
+    background-color: #e6c9ff;
+    margin-top: 20px;
+    color: #9a70bf;
+}
+.hd-op-prcake-pink{
+    color:#fba1a1;
+}
+.hd-op-pinkrcakebtm-text{
+    background-color:  #f8d4d3;
+    margin-top: 20px;
+    color:#fba1a1;
+}
+.hd-op-prcakebtm-ptext{
+    padding: 20px;
+    font-size: 18px;
+}
+.hd-op-plist{
+    padding: 20px;
+}
+.hd-pad-top-0{
+    padding-top: 0 !important;
+}
+.hd-text-left{
+    text-align: left;
+}
+.hd-op-pline{
+    border-bottom: solid 1px #9a70bf;
+}
+.hd-purplebtn{
+    background-color: #875cad;
+    cursor: pointer;
+}
+.hd-pinkbtn{
+    background-color: #fba1a1;
+    cursor: pointer;
+}
+.hd-greenbtn{
+    background-color: #23cfa7;
+    cursor: pointer;
+}
+.hd-bluebtn{
+    background-color:#59d4f0;
+    cursor: pointer;
+}
+.hd-op-ptn:hover.hd-pinkbtn{
+    background-color:hotpink;
+}
+.hd-op-ptn:hover.hd-greenbtn{
+    background-color:darkcyan;
+}
+.hd-op-ptn:hover.hd-bluebtn{
+    background-color:darkblue;
+}
+.hd-op-ptn{
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.hd-op-ptn:hover.hd-purplebtn{
+    background-color:mediumorchid;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+li{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+span{
+    font-size: 20px;
+}
+h4{
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin: 0;
+    font-size: 30px;
+}
+/*蛋糕底下文字部分*/
+.p {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.hd-mar-top-20 {
+    margin-top: 20px;
+}
+
+.hd-mar-top-10 {
+    margin-top: 10px;
+}
+
+.hd-mar-btm-20 {
+    margin-bottom: 20px;
+}
+
+.hd-pad-btm-10 {
+    padding-bottom: 10px;
+}
+
+.hd-pad-top-10 {
+    padding-top: 10px;
+}
+
+/*整个蛋糕部分*/
+.hd-wcw-cake {
+    padding: 50px 0;
+}
+
+/*第一行蛋糕*/
+.hd-cake-1 {
+    width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/*第二行蛋糕*/
+.hd-cake-2 {
+    width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*1个蛋糕*/
+.hd-cake-1-1 {
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+/*光圈大小部分*/
+.hd-cakemesse {
+    width: 255px;
+    height: 255px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*图片大小设置*/
+.hd-img {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 23%;
+    left: 23%;
+    border-radius: 100px;
+    z-index: 10;
+}
+
+.hd-pink {
+    background: url("../images/hd-img/cake-white-lg.png") no-repeat center;
+    background-color: #fba1a1;
+}
+
+.hd-pinktext {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fba1a1;
+}
+
+.hd-purple {
+    background: url("../images/hd-img/cake-white-lg.png") no-repeat center;
+    background-color: #a593c2;
+}
+
+.hd-purpletext {
+    color: #a593c2;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hd-plum {
+    background: url("../images/hd-img/cake-white-lg.png") no-repeat center;
+    background-color: indigo;
+}
+
+.hd-plumtext {
+    color: indigo;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hd-green {
+    background: url("../images/hd-img/cake-white-lg.png") no-repeat center;
+    background-color: #23cfa7;
+}
+
+.hd-greentext {
+    color: #23cfa7;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hd-yellow {
+    background: url("../images/hd-img/cake-white-lg.png") no-repeat center;
+    background-color: #ffbb63;
+}
+
+.hd-yellowtext {
+    color: #ffbb63;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hd-blue {
+    background: url("../images/hd-img/cake-white-lg.png") no-repeat center;
+    background-color: #59d4f0;
+}
+
+.hd-bluetext {
+    color: #59d4f0;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*光效设置部分*/
+.hd-messes-show {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("../images/hd-img/messes.png") no-repeat center;
+    opacity: 0;
+    z-index: 20;
+    cursor: pointer;
+    margin: 0 auto;
+
+}
+/*光效效果*/
+.hd-messes-show:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+div {
+    display: block;
+}
+.hd-wcw p{
+    font-size: 20px;
+}
+
+.hd-center {
+    text-align: center;
+}
+
+/*tittle父元素*/
+.hd-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hd-wcw-tittle-text {
+    color: #ffffff;
+}
+
+/*制作蛋糕底下的条*/
+.hd-bottom-green-line {
+    background-color: #a0ecd9;
+}
+
+.hd-bottom-purple-line {
+    background-color: #a593c2;
+}
+
+.hd-bottom-blue-line {
+    background-color: #59d4f0;
+}
+
+.hd-bottom-plum-line {
+    background-color: indigo;
+}
+
+.hd-bottom-pink-line {
+    background-color: #fba1a1;
+}
+
+.hd-bottom-yellow-line {
+    background-color: #ffbb63;
+}
+
+.hd-line-temp {
+    height: 5px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*tittle底下的渐变条*/
+.hd-bottomimg {
+    height: 10px;
+    background: url("../images/hd-img/arrow-green.png");
+}
+
+h2 {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.hd-green-table {
+    background-color: #23cfa7;
+    border-top: 10px solid #a0ecd9;
+}
+@keyframes move {
+    0%{
+        transform: translate(-100px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.clearFloat:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.clearFloat {
+    zoom: 1;
+}
